@@ -1,0 +1,103 @@
+svg.clouds {
+  display: block;
+  margin: auto;
+  height: auto;
+  width: 100%;
+}
+
+svg.cloud-button {
+  height: auto;
+  width: 100%;
+}
+
+.middle {
+  text-align: center;
+  height: auto;
+  width: 100%;
+}
+
+form input {
+  border: none;
+  font-size: 22px;
+  padding: 2px;
+  transition: background 2s;
+  outline: 0px;
+}
+
+input#comment {
+  display: block;
+  margin: 40px auto 30px;
+  text-align: center;
+  height: auto;
+  width: 100%;
+}
+
+input{
+  color: #A2B6E1;
+}
+
+button.btn {
+  background: transparent;
+}
+
+button.btn:focus {
+  background: transparent;
+  box-shadow: none;
+  outline: 0px;
+}
+
+ul {
+  list-style: none;
+  margin-left: -40px;
+  margin-top: 55px;
+  margin-bottom: 55px;
+}
+
+li {
+  font-family: LucidaGrande-Bold, Lucida Grande;
+  font-size: 16px;
+  font-weight: bold;
+  display: block;
+  margin: 10px;
+  color: #A2B6E1;
+  text-align: center;
+}
+
+path.clouds-button:hover {
+  fill: hsla(221, 51%, 76%, 0.38);
+
+}
+
+path.clouds-button {
+  transition: fill 2s;
+}
+
+@media only screen and (max-width: 700px) {
+
+  form input {
+    font-size: 18px;
+  }
+
+  svg.cloud-button {
+    width: 90%;
+  }
+
+  li {
+    font-size: 12px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+
+  form input {
+    font-size: 16px;
+  }
+
+  svg.cloud-button {
+    width: 80%;
+  }
+
+  li {
+    font-size: 10px;
+  }
+}
