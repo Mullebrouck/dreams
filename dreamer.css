@@ -1,21 +1,3 @@
-svg.clouds {
-  display: block;
-  margin: auto;
-  height: auto;
-  width: 100%;
-}
-
-svg.cloud-button {
-  height: auto;
-  width: 100%;
-}
-
-.middle {
-  text-align: center;
-  height: auto;
-  width: 100%;
-}
-
 form input {
   border: none;
   font-size: 22px;
@@ -24,26 +6,24 @@ form input {
   outline: 0px;
 }
 
-input#comment {
-  display: block;
-  margin: 40px auto 30px;
-  text-align: center;
-  height: auto;
-  width: 100%;
-}
-
 input{
   color: #A2B6E1;
 }
 
-button.btn {
-  background: transparent;
+input::-webkit-input-placeholder{
+  color: rgba(162, 182, 225, 0.59);
 }
 
-button.btn:focus {
-  background: transparent;
-  box-shadow: none;
-  outline: 0px;
+input:-ms-input-placeholder {
+  color: rgba(162, 182, 225, 0.59);
+}
+
+input:-ms-input-placeholder{
+  color: rgba(162, 182, 225, 0.59);
+}
+
+input:-moz-placeholder  {
+  color: rgba(162, 182, 225, 0.59);
 }
 
 ul {
@@ -60,6 +40,54 @@ li {
   display: block;
   margin: 10px;
   color: #A2B6E1;
+  text-align: center;
+}
+
+a {
+  color: rgba(162, 182, 225, 0.59);
+  display: block;
+  margin-top: 10px;
+}
+
+svg.clouds {
+  display: block;
+  margin: auto;
+  height: auto;
+  width: 100%;
+}
+
+svg.cloud-button {
+  height: auto;
+  width: 100%;
+}
+
+button.btn {
+  background: transparent;
+}
+
+button.btn:focus {
+  background: transparent;
+  box-shadow: none;
+  outline: 0px;
+}
+
+input#comment {
+  display: block;
+  margin: 40px auto 30px;
+  text-align: center;
+  height: auto;
+  width: 100%;
+}
+
+.middle {
+  text-align: center;
+  height: auto;
+  width: 100%;
+}
+
+.copyright {
+  color: rgba(162, 182, 225, 0.59);
+  font-weight: 400;
   text-align: center;
 }
 
